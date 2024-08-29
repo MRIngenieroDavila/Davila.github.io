@@ -1,0 +1,134 @@
+.logo img{
+    height: 130px;
+}
+
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background: #f4f4f4;
+}
+
+/* Contenedor centralizado */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+header {
+    background: #003366;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sección Hero */
+.hero {
+    background: url('https://scontent.fmga3-1.fna.fbcdn.net/v/t39.30808-6/452635016_122134881962279940_919508052496332024_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=s6W4GvFV1FkQ7kNvgG6yaAL&_nc_ht=scontent.fmga3-1.fna&oh=00_AYDFVtNMI9toP-vtXbpsOpzyA-_fQL0DOSU9rRw9qRMZVQ&oe=66D5B7EC') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.btn-primary {
+    background: #e94e77;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: #d43f6c;
+}
+
+/* Secciones */
+section {
+    padding: 40px 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.about p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.news article {
+    margin-bottom: 20px;
+}
+
+.news h3 {
+    font-size: 1.5em;
+}
+
+.players {
+    background: #f9f9f9;
+}
+
+.player-card {
+    text-align: center;
+    margin: 20px;
+}
+
+.player-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.player-card h3 {
+    margin: 10px 0;
+}
+
+/* Pie de página */
+footer {
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
